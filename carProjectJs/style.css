@@ -19,12 +19,11 @@
 }
 /* Custom Scroll Bar */
 html::-webkit-scrollbar{
-    width: 0.5rem;
+    width: 0.2rem;
     background: transparent;
 }
 
 html::-webkit-scrollbar-thumb{
-    border-radius: 5rem;
     background: var(--text-color);
 }
 
@@ -140,7 +139,6 @@ header.shadow #search-icon {
 }
 
 .home {
-    max-width: 1300px;
     margin: auto;
     width: 100%;
     min-height: 640px;
@@ -515,6 +513,9 @@ header.shadow #search-icon {
     }
     .about-text h2{
         font-size: 1.4rem;
+    }
+    .home {
+        min-height: 500px;
     }
 }
 
